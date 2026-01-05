@@ -76,7 +76,7 @@ person = {"name": "Alice", "age": 30}
 # 8. set - unique unodred items
 # Stored unique element, uses hashing like dict (but only keys)'
 
-unique= {1, 2, 3}
+unique = {1, 2, 3}
 
 # Empty set ~216 bytes
 # Each additional element ~70 bytes
@@ -142,12 +142,23 @@ mv = memoryview(b"example")
 # Produces values one at a time using yield.
 # Does NOT store tthe whole sequence
 
+
 def gen():
     yield 1
     yield 2
+
 
 # ~112 bytes
 # Use almost no extra memory regardless of outputs
 # Use: streaming data, measurement loops, large datasets.
 
+'''
+
+Name	        Description	Code	                                                                Language(s) that recommend it
+Snake Case	    All words are lowercase and separated by underscores	        num_new_users	    Python, Ruby, Rust
+Camel Case	    Capitalize the first letter of each word except the first one	numNewUsers	        JavaScript, Java
+Pascal Case	    Capitalize the first letter of each word	                    NumNewUsers	        C#, C++
+No Casing	    All lowercase with no separation	                            numnewusers	        ...just don't do this
+
+'''
 

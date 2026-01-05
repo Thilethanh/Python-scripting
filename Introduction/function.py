@@ -5,10 +5,12 @@
 def welcome(name):
     print("Hello " + name + ", Welcome to the jungle! ")
 
+
 welcome("Jone")
 
 # The return statement is used to exit a function.
 # return [expression_list]
+
 
 def return_value(a):
     if a >= 0:
@@ -71,3 +73,8 @@ sum = sample.addition (10, 20)
 print (sum)
 """
 
+'''
+Parameters vs. Arguments
+Parameters are the names used for inputs when defining a function. 
+Arguments are the values of the inputs supplied when a function is called.
+'''
